@@ -3,5 +3,5 @@
 
 #include <vector>
 #include <fstream>
-void generate_graph(const std::vector<int>& values, std::ofstream& output);
+void generate_graph(const std::vector<int>& values, std::fstream& output);
 #endif
