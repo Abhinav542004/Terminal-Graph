@@ -11,7 +11,7 @@ using namespace std;
 int main()
 {
     ifstream input("example.va");
-    fstream output("example.av");
+    fstream output("example.av", ios::out);
 
     if (!input.is_open()) {
         cout << "Error opening example.va" << endl;

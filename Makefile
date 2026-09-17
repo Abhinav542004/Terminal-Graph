@@ -9,6 +9,7 @@ main: main.cpp
 
 run: main lib
 	./main
+	cat example.av
 
 clean:
 	rm -f main generate.o
